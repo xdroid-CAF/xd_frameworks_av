@@ -54,7 +54,10 @@ cc_library_shared {
         "libutils",
     ],
 
-    defaults: ["libstagefright_omx_defaults"],
+    defaults: [
+        "libstagefright_omx_defaults",
+        "stagefright_qcom_legacy_defaults"
+    ],
     shared_libs: [
         "libbase",
         "libbinder",
