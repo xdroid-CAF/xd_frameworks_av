@@ -208,7 +208,7 @@ class MediaPlayer : public BnMediaPlayerClient,
 {
 public:
     MediaPlayer();
-    explicit MediaPlayer(const std::string opPackageName);
+    MediaPlayer(const std::string opPackageName);
     ~MediaPlayer();
             void            died();
             void            disconnect();
